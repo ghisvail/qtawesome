@@ -4,3 +4,5 @@ exclude docs/*.yml
 include CHANGELOG.md LICENSE README.md
 include example.py
 recursive-include qtawesome/tests *
+global-exclude __pycache__
+global-exclude *.py[co]
